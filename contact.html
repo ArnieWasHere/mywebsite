@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>AG - Contact</title>
+	<!--
+		Contact and social media with schedule. Includes the image map.
+		
+		Author: Arnie Gamboa
+		Date: 5/11/24
+		
+	--->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+	<script src="modernizr.custom.40753.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&amp;family=Montserrat:ital,wght@0,100..900;1,100..900&amp;family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p>
+		<header>
+			<h1>ARNIE GAMBOA</h1>
+		</header>
+		<nav class="sitenavigation">
+			<ul>
+				<li>
+					<a href="index.html">&#8962; HOME</a>
+				</li>
+				<li>
+					<a href="portfolio.html">PORTFOLIO &amp; PROJECTS</a>
+				</li>
+				<li>
+					<a href="aboutme.html">ABOUT ME</a>
+				</li>
+				<li>
+					<a href="contact.html">CONTACT/SOCIAL</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="heading">
+			<p>CONTACT/SOCIAL</p>
+		</div>
+		<div class="top">
+			<div class="tiktok">
+				<h2>TikTok</h2><p><b>TikTok: @arneez</b></p>
+				<a href="https://www.tiktok.com/@arneez" target="_blank">
+				<img src="images/tiktok.png" alt="TikTok">
+				</a>
+			</div>
+			<div class="youtube">
+				<h2>YouTube</h2><p><b>Youtube: @arniesusername</b></p>
+				<a href="https://www.youtube.com/channel/UCqP4mEMLu0xN6k_THSC-uHg" target="_blank">
+				<img src="images/youtube.png" alt="YouTube">
+				</a>
+			</div>
+			<div class="instagram">
+				<h2>Instagram</h2><p><b>Instagram: @arnie.ball</b></p>
+				<a href="https://www.instagram.com/arnie.ball/" target="_blank">
+				<img src="images/instagram.png" alt="Instagram">
+				</a>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="shapes">
+				<img src="images/shapes.png" alt="Image maps" usemap="#imagemap">
+				<map name="imagemap">
+					<area target="_blank" alt="wrcRectangle" title="wrc" href="https://www.w3.org/" coords="0,1,348,255" shape="rect">
+					<area target="_blank" alt="w3schoolsCircle" title="w3Schools" href="https://www.w3schools.com/" coords="568,241,186" shape="circle">
+					<area target="_blank" alt="cssTriangle" title="CSS" href="https://www.w3schools.com/css/" coords="348,284,74,680,615,677" shape="poly">
+				</map>
+			</div>
+			<form>
+			<div class="contactform"> 
+			<fieldset>
+				<legend>Contact Information</legend>
+				<label for="name">Name:</label><br>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">Email:</label><br>
+				<input type="text" id="email" name="email"><br>
+			</fieldset>
+			<fieldset>
+				<legend>Subject</legend>
+				<label for="title">Subject</label><br>
+				<input type="text" id="title" name="title"><br>
+				<label for="description">Description:</label><br>
+				<textarea id="description" name="description"></textarea><br>
+			</fieldset>
+			<fieldset>
+				<legend>Are You a...</legend>
+				<input type="radio" id="player" name="category" value="player">
+				<label for="player">Player</label><br>
+				<input type="radio" id="watcher" name="category" value="watcher">
+				<label for="watcher">Watcher</label><br>
+				<input type="radio" id="coach" name="category" value="coach">
+				<label for="coach">Coach</label><br>
+				<input type="radio" id="other" name="category" value="other">
+				<label for="coach">Other</label><br>
+			</fieldset>
+			<fieldset>
+				<legend>Additional Info</legend>
+				<label for="tags">Tags (separated by commas):</label><br>
+				<input type="text" id="tags" name="tags"><br>
+				<label for="educational">Educational:</label>
+				<input type="checkbox" id="educational" name="educational"><br>
+				<label for="entertainment">Entertainment:</label>
+				<input type="checkbox" id="entertainment" name="entertainment"><br>
+			</fieldset>
+			<fieldset>
+				<legend>Agreements</legend>
+				<input type="checkbox" id="terms" name="terms">
+				<label for="terms">I agree to the terms and conditions</label><br>
+			</fieldset>
+			<input type="reset" value="Reset">
+			<input type="submit" value="Submit">
+			</div>
+		</div>
+		<footer class="footerp">
+			<p>Arnie Gamboa <br> CIT 151 Spring <br> Semester 2024</p>
+		</footer>
+	</div>
+	</body>
+</html>
